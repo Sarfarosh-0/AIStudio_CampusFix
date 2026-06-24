@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Brand colors matching Clean Minimalism */
+  --color-primary-blue: #3B82F6;
+  --color-primary-blue-dark: #2563EB;
+  --color-primary-blue-tint: #EFF6FF;
+  
+  /* Status theme colors */
+  --color-success-green: #10B981;
+  --color-success-tint: #ECFDF5;
+  --color-warning-amber: #F59E0B;
+  --color-warning-tint: #FEF3C7;
+  --color-critical-red: #EF4444;
+  --color-critical-tint: #FEF2F2;
+  
+  /* Text and base surfaces matching Clean Minimalism spec */
+  --color-ink-primary: #0F172A;
+  --color-text-secondary: #64748B;
+  --color-surface-bg: #F8FAFC;
+  --color-surface-card: #FFFFFF;
+  --color-border-divider: #E2E8F0;
+  
+  /* Category colors optimized for contrast */
+  --color-cat-infrastructure: #3B82F6;
+  --color-cat-canteen: #F59E0B;
+  --color-cat-safety: #EF4444;
+  --color-cat-connectivity: #06B6D4;
+
+  /* Typography Fallbacks */
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-mono: "JetBrains Mono", "Courier New", monospace;
+
+  /* Radius overrides representing premium curves */
+  --radius-card: 16px;
+  --radius-btn: 12px;
+  --radius-badge: 9999px;
+
+  /* Custom shadows */
+  --shadow-card: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05);
+}
+
+body {
+  background-color: var(--color-surface-bg);
+  color: var(--color-ink-primary);
+  font-family: var(--font-sans);
+  margin: 0;
+  padding: 0;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-divider);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+}
+
