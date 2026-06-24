@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useRef } from 'react';
-import { Camera, Upload, AlertCircle, Sparkles, Check, RefreshCw } from 'lucide-react';
+import { Camera, AlertCircle, Sparkles, Check, RefreshCw } from 'lucide-react';
 import { CampusReport, CAMPUS_BUILDINGS, Category, Priority } from '../types';
 
 interface ReportFormProps {

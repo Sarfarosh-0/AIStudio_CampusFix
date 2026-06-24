@@ -5,7 +5,7 @@
 
 import React from 'react';
 import { CampusReport, Category, CATEGORY_COLORS, PRIORITY_COLORS } from '../types';
-import { CheckCircle2, AlertCircle, TrendingUp, Sparkles, BarChart2, Flame } from 'lucide-react';
+import { TrendingUp, Sparkles, BarChart2, Flame } from 'lucide-react';
 
 interface PublicDashboardProps {
   reports: CampusReport[];

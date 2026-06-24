@@ -4,19 +4,15 @@
  */
 
 import React, { useState } from 'react';
-import { CampusReport, Category, STATUS_COLORS, PRIORITY_COLORS, CATEGORY_COLORS } from '../types';
+import { CampusReport, Category, STATUS_COLORS, PRIORITY_COLORS } from '../types';
 import { 
   Wrench, 
   Utensils, 
   ShieldAlert, 
   Wifi, 
-  Clock, 
-  RefreshCw, 
   CheckCircle, 
-  AlertTriangle,
   Flame,
-  Search,
-  Filter
+  Search
 } from 'lucide-react';
 
 interface ResolverQueueProps {
