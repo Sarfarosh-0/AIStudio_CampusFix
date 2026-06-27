@@ -148,9 +148,6 @@ export default function App() {
             <h1 className="text-2xl font-black text-primary-blue tracking-tight hover:scale-[1.02] transition cursor-pointer select-none">
               CampusFix
             </h1>
-            <span className="bg-[#EEF2F6] text-primary-blue border border-primary-blue-tint text-[10px] uppercase font-bold px-2 py-0.5 rounded-badge select-none">
-              Build Challenge 2026
-            </span>
           </div>
 
           {/* Clean Segment Mode Toggle */}

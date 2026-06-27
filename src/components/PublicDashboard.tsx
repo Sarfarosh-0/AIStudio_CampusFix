@@ -46,12 +46,10 @@ export default function PublicDashboard({ reports, selectedBuilding, onSelectBui
         {/* Deep Blue Hero Stat: Impact Counter */}
         <div id="hero-impact-stat" className="bg-primary-blue text-white rounded-card p-6 shadow-card flex flex-col justify-between md:col-span-1 border border-primary-blue-dark">
           <div>
-            <span className="text-[10px] uppercase font-bold tracking-widest text-[#DCE9F2] leading-none mb-1 select-none">
-              🚀 Hackathon Impact Tracker
+            <span className="text-[10px] uppercase font-bold tracking-widest text-[#DCE9F2]  text-center leading-none mb-1 select-none">
+              Impact Tracker
             </span>
-            <p className="text-xs text-primary-blue-tint font-medium leading-tight">
-              BlockseBlock Build Challenge 2026
-            </p>
+        
           </div>
           <div className="my-3 text-center">
             <h2 id="impact-resolved-counter" className="text-5xl font-black tracking-tight leading-none text-white transition-all transform hover:scale-105 duration-300">

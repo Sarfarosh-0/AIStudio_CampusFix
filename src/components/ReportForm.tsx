@@ -196,7 +196,7 @@ export default function ReportForm({ onSubmitReport }: ReportFormProps) {
               onDragLeave={handleDragLeave}
               onDrop={handleDrop}
               onClick={() => fileInputRef.current?.click()}
-              className={`md:col-span-3 border-2 border-dashed rounded-lg p-5 flex flex-col items-center justify-center text-center cursor-pointer min-h-[160px] transition-all duration-200 ${
+              className={`md:col-span-3 border-2 border-dashed w-[630px] rounded-lg p-5 flex flex-col items-center justify-center text-center cursor-pointer min-h-[250px] transition-all duration-200 ${
                 isDragging 
                   ? 'border-primary-blue bg-primary-blue-tint/30' 
                   : imageUrl 
@@ -248,7 +248,7 @@ export default function ReportForm({ onSubmitReport }: ReportFormProps) {
             </div>
 
             {/* Quick Presets Sidepanel (Crucial for convenient review!) */}
-            <div className="md:col-span-2 flex flex-col justify-between border border-border-divider rounded-lg p-3 bg-neutral-50">
+            {/* <div className="md:col-span-2 flex flex-col justify-between border border-border-divider rounded-lg p-3 bg-neutral-50">
               <span className="text-[11px] font-bold uppercase tracking-wider text-text-secondary block mb-1.5 select-none">
                 💡 Demo Quick-Select
               </span>
@@ -275,7 +275,7 @@ export default function ReportForm({ onSubmitReport }: ReportFormProps) {
                   </button>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
